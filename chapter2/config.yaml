@@ -1,0 +1,22 @@
+api_key: ""  # API KEY
+api_secret_key: ""  # API SECRET KEY
+stock_account_number: ""  # 주식 실전투자 계좌번호 앞 8자리 (XXXXXXXX-01 형식이라면 -01 제외하고 입력)
+future_account_number: ""  # 선물옵션 실전투자 계좌번호 앞 8자리 (XXXXXXXX-03 형식이라면 -03 제외하고 입력)
+paper_api_key: ""  # 모의투자 API KEY
+paper_api_secret_key: ""   # 모의투자 API SECRET KEY
+paper_stock_account_number: ""  # 모의투자 계좌번호 앞 8자리 (XXXXXXXX-01 형식이라면 -01 제외하고 입력)
+paper_future_account_number: ""  # 모의투자 계좌번호 앞 8자리 (XXXXXXXX-03 형식이라면 -03 제외하고 입력)
+htsid: ''  # 체결통보용 HTS ID 입력
+custtype: 'P'  # customer type, 개인:'P' 법인 'B'
+is_paper_trading: False  # 모의투자 여부 (True 또는 False)
+
+
+# User Agent
+my_agent: "'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36"
+
+
+#domain info
+url: "https://openapi.koreainvestment.com:9443"  #서비스
+websocket_url: "ws://ops.koreainvestment.com:21000"  #웹소켓
+paper_url: "https://openapivts.koreainvestment.com:29443"  #모의투자서비스
+paper_websocket_url: "ws://ops.koreainvestment.com:31000"  #모의투자웹소켓
