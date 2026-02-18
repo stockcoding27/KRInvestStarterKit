@@ -1,6 +1,6 @@
 # 한국투자증권 API 강의 예제 코드
 ## 해당 코드는 chapter2까지만 있는 무료 스타터 키트입니다. 전체 코드는 Github 스폰서를 통해 엑세스 하세요!
-### Github Sponsor 링크: https://github.com/sponsors/StockCodingYouTube
+### Github 스폰서 관련 내용: https://github.com/stockcoding27
 
 ---
 
